@@ -13,7 +13,7 @@
 #define LCD_INT_H
 
 #define LCDDIR_DATA		DDRB  //warning : for 4 bit connection, always use the last 4 pins of any port
-#define LCD_DATA		PORTB
+#define LCD_DATA	PORTB
 #define LCDDIR_CTRL		DDRB  //you can use any remaining pins of any port for the control
 #define ctrl			 PORTB
 #define rs				 PINB0
