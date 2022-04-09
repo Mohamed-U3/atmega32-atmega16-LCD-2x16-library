@@ -15,10 +15,10 @@
 #define LCDDIR_DATA   DDRB  //warning : for 4 bit connection, always use the last 4 pins of any port
 #define LCD_DATA      PORTB
 #define LCDDIR_CTRL   DDRB  //you can use any remaining pins of any port for the control
-#define ctrl        PORTB
-#define rs          PINB0
-#define rw          PINB1
-#define en          PINB2
+#define ctrl          PORTB
+#define rs            PINB0
+#define rw            PINB1
+#define en            PINB2
 
 void LCD_cmd(unsigned char); 
 void LCD4_cmd(unsigned char);
