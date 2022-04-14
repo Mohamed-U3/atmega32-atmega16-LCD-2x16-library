@@ -53,6 +53,7 @@ void LCD4_init()
 	LCDDIR_DATA |= 0xF0;
 	LCDDIR_CTRL |= ((1<<rs)|(1<<rw)|(1<<en));
 	
+	LCD4_cmd(0x33);
 	LCD4_cmd(0x02);
 	LCD4_cmd(0x28);
 	LCD4_cmd(0x0c);
